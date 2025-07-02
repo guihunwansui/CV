@@ -29,8 +29,8 @@ This project explores crime data in Chicago from 2015 to 2022, focusing on data 
 - Arrest rates vary significantly across districts, indicating potential issues in law enforcement efficiency.
 
 ### Files
-- [Matlab_Project_Report.pdf](Matlab_Project_Report.pdf): Detailed project report.
-- [Chicago_Crime_Data.csv](Chicago_Crime_Data.csv): Dataset used for analysis.
+- [Matlab_Project_Report.pdf](https://github.com/guihunwansui/CV/blob/main/p1/Matlab_Project_Report.pdf): Detailed project report.
+- Chicago_Crime_Data.csv: Dataset used for analysis.
 
 ## Isle Royale Wolf-Moose Population Analysis
 ### Overview
@@ -52,9 +52,9 @@ This project analyzes the population dynamics of wolves and moose on Isle Royale
 - Classification models can predict wolves number based on year, moose number, and kill rate with reasonable accuracy.
 
 ### Files
-- ["final_project_ipynb"的副本.py](“final_project_ipynb”%E7%9A%84%E5%89%AF%E6%9C%AC.py): Python script for data analysis.
-- [wolf_moose_yearly.csv](wolf_moose_yearly.csv): Dataset containing yearly counts of wolf and moose populations.
-- [moose_deaths.csv](moose_deaths.csv): Dataset containing information about moose deaths.
+- [final_project.ipynb](https://github.com/guihunwansui/CV/blob/main/final_project.ipynb): Python script for data analysis.
+- wolf_moose_yearly.csv: Dataset containing yearly counts of wolf and moose populations.
+- moose_deaths.csv: Dataset containing information about moose deaths.
 
 ## Point Cloud Processing using Point Feature Histograms
 ### Overview
@@ -75,15 +75,7 @@ This project introduces optimizations to the traditional Point Feature Histogram
 - The improved ICP method achieves high-precision alignment suitable for complex objects.
 
 ### Files
-- [422_report.pdf](422_report.pdf): Detailed project report.
-- [query_improved.py](query_improved.py): Core implementation of optimized PFH and ICP alignment.
-- [utility.py](utility.py): Utility functions for point cloud processing.
-- [timer.py](timer.py): Timer class for performance measurement.
-- [filter.py](filter.py): Functions for feature filtering.
-- [proj_bin_improved.py](proj_bin_improved.py): Implementation of one-dimensional FPFH histograms.
-- [proj_fpfh.py](proj_fpfh.py): Original FPFH computation.
-- [proj_pfh.py](proj_pfh.py): Original PFH computation.
-- [demo.py](demo.py): Demonstration script for room scan alignment.
+- [422_report.pdf](https://github.com/guihunwansui/CV/blob/main/422_report.pdf): Detailed project report.
 
 ## Conclusion
 This portfolio highlights my proficiency in various aspects of data science and analytics, from data visualization and statistical analysis to algorithm development and optimization. These projects demonstrate my ability to tackle complex problems, derive actionable insights, and implement efficient solutions. I am excited to bring these skills to a data science or analytics role and contribute to impactful projects.

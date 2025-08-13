@@ -92,9 +92,8 @@ This project involves the development of machine learning models to evaluate bal
 - MATLAB and Python scripts
 
 ### Files
-- [BILSTM pipeline](https://github.com/guihunwansui/CV/tree/main/SURE_ML_for_balance_rehab/BILSTM%20pipeline)
-- [M3X_PH_pipeline.py](https://github.com/guihunwansui/CV/tree/main/SURE_ML_for_balance_rehab/M3X_PH_pipeline.py)
-- [SURE_poster.pptx.pdf](https://github.com/guihunwansui/CV/tree/main/SURE_ML_for_balance_rehab/SURE_poster.pptx.pdf)
+- [M3X_PH_pipeline.py](https://github.com/guihunwansui/CV/blob/main/SURE_ML_for_balance_rehab/M3X_PH_pipeline.py)
+- [SURE_poster.pptx.pdf](https://github.com/guihunwansui/CV/blob/main/SURE_ML_for_balance_rehab/SURE_poster.pptx.pdf)
 
 ## UpliftAI Internship
 ### Overview
@@ -107,9 +106,9 @@ During my internship at UpliftAI, I worked on SQL files for database setup and a
 - SQL
 
 ### Files
-- [RLS_access.sql](https://github.com/guihunwansui/CV/tree/main/UpliftAI_internship/RLS_access.sql)
-- [setup_challenge.sql](https://github.com/guihunwansui/CV/tree/main/UpliftAI_internship/setup_challenge.sql)
-- [setup_point_system.sql](https://github.com/guihunwansui/CV/tree/main/UpliftAI_internship/setup_point_system.sql)
+- [RLS_access.sql](https://github.com/guihunwansui/CV/blob/main/UpliftyAI_internship/RLS_access.sql)
+- [setup_challenge.sql](https://github.com/guihunwansui/CV/blob/main/UpliftAI_internship/setup_challenge.sql)
+- [setup_point_system.sql](https://github.com/guihunwansui/CV/blob/main/UpliftAI_internship/setup_point_system.sql)
 
 ## Conclusion
 This portfolio highlights my proficiency in various aspects of data science and analytics, from data visualization and statistical analysis to algorithm development and optimization. These projects demonstrate my ability to tackle complex problems, derive actionable insights, and implement efficient solutions. I am excited to bring these skills to a data science or analytics role and contribute to impactful projects.

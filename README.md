@@ -6,6 +6,8 @@ Welcome to my Data Science and Analytics Portfolio! This repository showcases a 
 - [Chicago Crime Analysis](#chicago-crime-analysis)
 - [Isle Royale Wolf-Moose Population Analysis](#isle-royale-wolf-moose-population-analysis)
 - [Point Cloud Processing using Point Feature Histograms](#point-cloud-processing-using-point-feature-histograms)
+- [SURE ML for Balance Rehab](#sure-ml-for-balance-rehab)
+- [UpliftAI Internship](#upliftai-internship)
 
 ## Chicago Crime Analysis
 ### Overview
@@ -76,6 +78,38 @@ This project introduces optimizations to the traditional Point Feature Histogram
 
 ### Files
 - [422_report.pdf](https://github.com/guihunwansui/CV/blob/main/422_report.pdf): Detailed project report.
+
+## SURE ML for Balance Rehab
+### Overview
+This project involves the development of machine learning models to evaluate balance performance during rehabilitation.
+
+### Key Features
+- Data extraction and conversion into spectrograms
+- Implementation of CNN and BiLSTM models with Python for classification
+- Fine-tuning of models to improve metrics
+
+### Tools and Technologies
+- MATLAB and Python scripts
+
+### Files
+- [BILSTM pipeline](https://github.com/guihunwansui/CV/tree/main/SURE_ML_for_balance_rehab/BILSTM%20pipeline)
+- [M3X_PH_pipeline.py](https://github.com/guihunwansui/CV/tree/main/SURE_ML_for_balance_rehab/M3X_PH_pipeline.py)
+- [SURE_poster.pptx.pdf](https://github.com/guihunwansui/CV/tree/main/SURE_ML_for_balance_rehab/SURE_poster.pptx.pdf)
+
+## UpliftAI Internship
+### Overview
+During my internship at UpliftAI, I worked on SQL files for database setup and access management.
+
+### Key Features
+- SQL files for database setup and access management
+
+### Tools and Technologies
+- SQL
+
+### Files
+- [RLS_access.sql](https://github.com/guihunwansui/CV/tree/main/UpliftAI_internship/RLS_access.sql)
+- [setup_challenge.sql](https://github.com/guihunwansui/CV/tree/main/UpliftAI_internship/setup_challenge.sql)
+- [setup_point_system.sql](https://github.com/guihunwansui/CV/tree/main/UpliftAI_internship/setup_point_system.sql)
 
 ## Conclusion
 This portfolio highlights my proficiency in various aspects of data science and analytics, from data visualization and statistical analysis to algorithm development and optimization. These projects demonstrate my ability to tackle complex problems, derive actionable insights, and implement efficient solutions. I am excited to bring these skills to a data science or analytics role and contribute to impactful projects.

@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
+  <diagram name="Page-1" id="s0W8aSUFRmhR6ZvrfI9R">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-1" target="ouTb3ykA7XJ_w5vGNsU0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-1" value="stack all parameters in terms of time-step&amp;nbsp; for the same trial&lt;div&gt;(time-step, 117)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-2" target="ouTb3ykA7XJ_w5vGNsU0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-2" value="store M3X data into matlab cell array and save as .mat" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-4" target="ouTb3ykA7XJ_w5vGNsU0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-4" value="open .mat in python and append each cell into a full list" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-6" target="ouTb3ykA7XJ_w5vGNsU0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-6" value="input normalization for each feature" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-8" target="ouTb3ykA7XJ_w5vGNsU0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-8" value="pad all matrices to the same length (number of time-steps)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-10" target="ouTb3ykA7XJ_w5vGNsU0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-10" value="extract PT labels from excel after filtering certain rows and columns&lt;div&gt;&amp;amp; Calculate class imbalance and apply class weights to training&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="316.25" width="190" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-12" target="ouTb3ykA7XJ_w5vGNsU0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-12" value="convert X and y into tensors" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-14" target="ouTb3ykA7XJ_w5vGNsU0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-14" value="Model architecture:&lt;div&gt;mask -&amp;gt; BiLSTM -&amp;gt; layer norm -&amp;gt; dropout -&amp;gt; BiLSTM -&amp;gt; layer norm -&amp;gt; dense (fc)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="456.25" width="190" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-16" target="ouTb3ykA7XJ_w5vGNsU0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-16" value="split out the validation set &amp;amp; batchify the inputs" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ouTb3ykA7XJ_w5vGNsU0-18" target="ouTb3ykA7XJ_w5vGNsU0-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-18" value="add callbacks of early stopping and checkpoint saving &amp;amp; loading" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="620" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-20" value="compile, build, fit the model with regression loss" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="618.75" width="160" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ouTb3ykA7XJ_w5vGNsU0-22" value="set policy to mixed-policy of float16 to speed up some computation, but remain float32 for necessary ones, e.g. loss calculation" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="680" y="130" width="145" height="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
